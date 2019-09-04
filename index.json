@@ -1,0 +1,22 @@
+[
+{
+	"uri": "/categories/",
+	"title": "Categories",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "/tags/",
+	"title": "Tags",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "/",
+	"title": "nordicsmartgovernment docs",
+	"tags": [],
+	"description": "",
+	"content": " nordicsmartgovernment docs Here you will find the docs on nordicsmartgovernment and the reference implementations made by us\nTesting HOWTO  Install Postman (or other tool to create and execute HTTP requests) https://www.getpostman.com/downloads/ Read openAPI descriptions https://github.com/nordicsmartgovernment/nordicsmartgovernment/tree/develop/src/main/resources/openAPI Reference implementation server URL: https://nsg.fellesdatakatalog.brreg.no/ Authorization: the reference implementation uses Basic Auth where a username and password has to be given in the request. At this moment the username and password can be anything (there are no real checks) apart from the API for submitting a voucher where the username has to be the companyId of the owner of the voucher. The companyId of the synthetic test data company is 20202020. Sample requests can be downloaded from: https://github.com/nordicsmartgovernment/nordicsmartgovernment/tree/develop/src/main/resources/SyntheticData  Example A simple ping request to the Transaction API:\ncurl -i https://nsg.fellesdatakatalog.brreg.no/transactions/ping  "
+}]
